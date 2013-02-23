@@ -1,0 +1,47 @@
+#!/usr/bin/env coffee
+
+Symbal = require('nez').link 'Symbal',
+
+    uri: 'https://localhost:10101/sky/etc/'
+
+
+
+Symbal
+
+    class: 'Core Module'
+
+    category: 'Configuration'
+
+    description: """
+
+
+
+        A Compendium of Type Definitions.
+
+
+
+
+    """, (feature) -> 
+
+        #
+        # the core definitions
+        #
+
+        feature.link 'spec/list'
+
+
+        #
+        # user definable
+        #
+        # feature.link 'spec/ ... '
+        # 
+
+
+        #
+        # type definition publisher
+        # 
+        # (a REST api)
+        #
+
+        feature.link 'spec/service'
+
