@@ -17,6 +17,7 @@ information
 
 
 
+
     as: 'existencial information', (to) -> 
 
 
@@ -27,6 +28,23 @@ information
         to 'encapsulate probability', (i) ->
             i need: 'a definition of Prospect', (feature) ->
                 feature.link 'spec/prospect_spec'
+
+        to 'encapsulate transcience', (i) ->
+
+            #
+            # some doubts:
+            # 
+            # 1. This is possibly not a Fundamental, but 
+            #    rather a specialization of the already 
+            #    defined 'Fact'
+            # 
+            # 2. This could also be considered systemic, 
+            #    not existencial 
+            #
+
+            i need: 'a definition of State', (feature) ->
+                feature.link 'spec/state_spec'
+
 
 
 

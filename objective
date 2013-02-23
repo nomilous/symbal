@@ -8,7 +8,7 @@ Symbal = require('nez').link 'Symbal',
 
 Symbal
 
-    class: 'Core Module'
+    class: 'Core Module - Symbiotics'
 
     category: 'Configuration'
 
@@ -27,7 +27,7 @@ Symbal
         # the core definitions
         #
 
-        feature.link 'realization/list'
+        feature.link 'realization/symbiotics'
 
 
         #
