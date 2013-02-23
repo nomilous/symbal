@@ -1,5 +1,6 @@
 /sky/etc/symbal
-===============
+---------------
 
-Compendium of Type Definitions
+### A Compendium of Type Definitions
 
+Symbiotics
