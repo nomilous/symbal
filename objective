@@ -27,13 +27,13 @@ Symbal
         # the core definitions
         #
 
-        feature.link 'spec/list'
+        feature.link 'realization/list'
 
 
         #
         # user definable
         #
-        # feature.link 'spec/ ... '
+        # feature.link 'realization/ ... '
         # 
 
 
@@ -42,6 +42,6 @@ Symbal
         # 
         # (a REST api)
         #
-
-        feature.link 'spec/service'
+        # feature.link 'realization/service'
+        #
 
