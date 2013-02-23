@@ -17,3 +17,6 @@ list
                 feature.link 'realization/information'
 
 
+            i need: 'the capacity to Communicate', (feature) ->
+                feature.link 'realization/communication'
+
