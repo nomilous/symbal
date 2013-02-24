@@ -1,13 +1,14 @@
-require('nez').inject 'Entity', (Entity, test, it, should) -> 
+require('nez').realize 'Entity', (Entity, test, context, should) -> 
 
-    it 'has a name', (done) ->
+    context 'properties', (are) -> 
 
-        should.exist Entity.prototype.name
-        test done
+        are 'class', (done) ->
 
-        #
-        # okgood, 
-        # 
-        # except <nez>.inject() does not yet exist...
-        # 
+            should.exist Entity.prototype.class
+            test done
+
+        are 'description', (done) ->
+        
+            should.exist Entity.description.class
+            test done
 
