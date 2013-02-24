@@ -1,6 +1,6 @@
 #!/usr/bin/env coffee
 
-Symbal = require('nez').link 'Symbal',
+Symbal = require('nez').objective 'Symbal',
 
     uri: 'https://localhost:10101/sky/etc/'
 

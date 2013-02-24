@@ -8,7 +8,6 @@ require('nez').realize 'Entity', (Entity, test, context, should) ->
             test done
 
         are 'description', (done) ->
-        
-            should.exist Entity.description.class
-            test done
 
+            should.exist Entity.prototype.description
+            test done
