@@ -1,6 +1,6 @@
 {
   "name": "symbal",
-  "description": "Sky - Compendium of Type Definitions - Symbiotics",
+  "description": "Compendium of Type Definitions - Symbiotics",
   "version": "0.0.0",
   "author": "nomilous <nomilous@gmail.com>",
   "contributors": [
@@ -9,9 +9,9 @@
       "email": "nomilous@gmail.com"
     }
   ],
-  "dependencies": {
-    "et": "0.0.4",
-    "plex": "0.0.4"
-  },
-  "devDependencies": {}
+  "repository": "git@github.com:nomilous/symbal.git",
+  "dependencies": {},
+  "devDependencies": {
+    "nez": "0.0.2"
+  }
 }

@@ -1,4 +1,4 @@
-information = require('nez').objective 'information'
+information = require('nez').linked 'information'
 
 information
 

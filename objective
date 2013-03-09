@@ -1,12 +1,8 @@
 #!/usr/bin/env coffee
 
-Symbal = require('nez').objective 'Symbal',
+require('nez').objective 'Symbal',
 
-    uri: 'https://localhost:10101/sky/etc/'
-
-
-
-Symbal
+    nimbal: 'https://localhost:10101/sky/etc/'
 
     class: 'Core Module - Symbiotics'
 
@@ -21,19 +17,19 @@ Symbal
 
 
 
-    """, (feature) -> 
+    """, (requirements) -> 
 
         #
         # the core definitions
         #
 
-        feature.link 'realization/symbiotics'
+        requirements.link 'requirements/symbiotics'
 
 
         #
         # user definable
         #
-        # feature.link 'realization/ ... '
+        # feature.link 'requirements/ ... '
         # 
 
 
@@ -42,6 +38,6 @@ Symbal
         # 
         # (a REST api)
         #
-        # feature.link 'realization/service'
+        # feature.link 'requirements/service'
         #
 

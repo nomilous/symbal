@@ -1,13 +1,14 @@
 require('nez').realize 'Entity', (Entity, test, context, should) -> 
 
-    context 'properties', (are) -> 
+    context 'has', (property) -> 
 
-        are 'class', (done) ->
+        property 'class', (done) ->
 
             should.exist Entity.prototype.class
             test done
 
-        are 'description', (done) ->
+        property 'description', (done) ->
 
             should.exist Entity.prototype.description
             test done
+
