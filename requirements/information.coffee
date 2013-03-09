@@ -6,12 +6,12 @@ information
     as: 'systemic information', (to) -> 
 
 
-        to 'encapsulate an instruction', (i) -> 
-            i need: 'a definition of Action', (feature) -> 
+        to 'encapsulate an instruction', (we) -> 
+            we need: 'a definition of Action', (feature) -> 
                 feature.link 'spec/action_spec'
 
-        to 'encapsulate an occurrance', (i) ->
-            i need: 'a definition of Event', (feature) -> 
+        to 'encapsulate an occurrance', (we) ->
+            we need: 'a definition of Event', (feature) -> 
                 feature.link 'spec/event_spec'
 
 
@@ -21,15 +21,15 @@ information
     as: 'existencial information', (to) -> 
 
 
-        to 'encapsulate certainty', (i) ->
-            i need: 'a definition of Fact', (feature) ->
+        to 'encapsulate certainty', (we) ->
+            we need: 'a definition of Fact', (feature) ->
                 feature.link 'spec/fact_spec'
 
-        to 'encapsulate probability', (i) ->
-            i need: 'a definition of Prospect', (feature) ->
+        to 'encapsulate probability', (we) ->
+            we need: 'a definition of Prospect', (feature) ->
                 feature.link 'spec/prospect_spec'
 
-        to 'encapsulate transcience', (i) ->
+        to 'encapsulate transcience', (we) ->
 
             #
             # some doubts:
@@ -42,7 +42,7 @@ information
             #    not existencial 
             #
 
-            i need: 'a definition of State', (feature) ->
+            we need: 'a definition of State', (feature) ->
                 feature.link 'spec/state_spec'
 
 
@@ -51,7 +51,7 @@ information
     as: 'exigential information', (to) ->
 
 
-        to 'encapsulate necessity', (i) -> 
-            i need: 'a definition of Expectation', (feature) ->
+        to 'encapsulate necessity', (we) -> 
+            we need: 'a definition of Expectation', (feature) ->
                 feature.link 'spec/expectation_spec'
 
