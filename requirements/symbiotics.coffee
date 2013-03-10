@@ -12,7 +12,7 @@ symbiotics
 symbiotics
 
     as:    'the essence of a system'
-    to:    'enable purpose', (i) ->
+    to:    'enable purpose'
     need:  'the fundemental dystinctions of Information'
     title: 'informations', (requirements) -> 
     
