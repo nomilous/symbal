@@ -2,29 +2,38 @@ symbiotics = require('nez').linked 'symbiotics'
 
 symbiotics
 
-    as: 'the essence of a system', (to) -> 
+    as:    'the essence of a system'
+    to:    'represent a component of myself'
+    need:  'a definition of Entity'
+    title: 'entity definition', (spec) -> 
         
+        spec.link 'spec/entity_spec'
 
-        to 'represent a component of myself', (i) ->
+symbiotics
 
-            i need: 'a definition of Entity', (feature) -> 
-                feature.link 'spec/entity_spec'
-
-
-
-        to 'enable purpose', (i) ->
-
-            i need: 'the fundemental dystinctions of Information', (requirements) -> 
-                requirements.link 'requirements/information'
+    as:    'the essence of a system'
+    to:    'enable purpose', (i) ->
+    need:  'the fundemental dystinctions of Information'
+    title: 'informations', (requirements) -> 
+    
+        requirements.link 'requirements/information'
 
 
+symbiotics
 
-        to 'enable symbiosis of purpose', (i) ->
+    as:    'the essence of a system'
+    to:    'enable symbiosis of purpose'
+    need:  'a dystinction of Relationship'
+    title: 'relationships', (requirements) ->
+        
+        requirements.link 'requirements/relationship'
 
-            i need: 'a dystinction of Relationship', (requirements) ->
-                requirements.link 'requirements/relationship'
 
-            i need: 'a capacity to Communicate', (requirements) ->
-                requirements.link 'requirements/communication'
+symbiotics
 
+    as:    'the essence of a system'
+    to:    'enable symbiosis of purpose'
+    need:  'a capacity to Communicate'
+    title: 'communications', (requirements) -> 
 
+        requirements.link 'requirements/communication'
