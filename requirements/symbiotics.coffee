@@ -5,26 +5,26 @@ symbiotics
     as: 'the essence of a system', (to) -> 
         
 
-        to 'represent a component of myself', (we) ->
+        to 'represent a component of myself', (i) ->
 
-            we need: 'a definition of Entity', (feature) -> 
+            i need: 'a definition of Entity', (feature) -> 
                 feature.link 'spec/entity_spec'
 
 
 
-        to 'enable purpose', (we) ->
+        to 'enable purpose', (i) ->
 
-            we need: 'the fundemental dystinctions of Information', (requirements) -> 
+            i need: 'the fundemental dystinctions of Information', (requirements) -> 
                 requirements.link 'requirements/information'
 
 
 
-        to 'enable symbiosis of purpose', (we) ->
+        to 'enable symbiosis of purpose', (i) ->
 
-            we need: 'a dystinction of Relationship', (requirements) ->
+            i need: 'a dystinction of Relationship', (requirements) ->
                 requirements.link 'requirements/relationship'
 
-            we need: 'a capacity to Communicate', (requirements) ->
+            i need: 'a capacity to Communicate', (requirements) ->
                 requirements.link 'requirements/communication'
 
 
