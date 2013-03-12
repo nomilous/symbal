@@ -1,1 +1,1 @@
-communication = require('nez').linked 'communication'
+communication = require('nez').requirements 'communication'

@@ -1,1 +1,1 @@
-relationship = require('nez').linked 'relationship'
+relationship = require('nez').requirements 'relationship'

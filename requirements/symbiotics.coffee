@@ -1,4 +1,4 @@
-symbiotics = require('nez').linked 'symbiotics'
+symbiotics = require('nez').requirements 'symbiotics'
 
 symbiotics
 
