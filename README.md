@@ -1,4 +1,4 @@
-/sky/etc/symbal
+/[sky](https://github.com/nomilous/seshat)/etc/symbal
 ---------------
 
 Symbiotics

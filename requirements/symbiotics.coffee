@@ -1,5 +1,7 @@
 symbiotics = require('nez').requirements 'symbiotics'
 
+console.log "running"
+
 symbiotics
 
     as:    'the essence of a system'
@@ -16,7 +18,7 @@ symbiotics
     need:  'the fundemental dystinctions of Information'
     title: 'informations', (requirements) -> 
     
-        requirements.link 'requirements/information'
+        #requirements.link 'requirements/information'
 
 
 symbiotics
@@ -26,7 +28,7 @@ symbiotics
     need:  'a dystinction of Relationship'
     title: 'relationships', (requirements) ->
         
-        requirements.link 'requirements/relationship'
+        #requirements.link 'requirements/relationship'
 
 
 symbiotics
@@ -36,4 +38,4 @@ symbiotics
     need:  'a capacity to Communicate'
     title: 'communications', (requirements) -> 
 
-        requirements.link 'requirements/communication'
+        #requirements.link 'requirements/communication'
