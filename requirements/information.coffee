@@ -14,6 +14,11 @@ information
 
         to 'encapsulate an occurrance', (i) ->
             i need: 'a definition of Event', (feature) -> 
+
+                #
+                # https://github.com/nomilous/notice/blob/3f09feebd4a95b3cda8dc0c2826e6496e2e4ca70/spec/notice_spec.coffee#L45
+                #
+
                 feature.link 'spec/event_spec'
 
 
